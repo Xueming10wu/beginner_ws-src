@@ -1,0 +1,12 @@
+#goal definition   样本个数
+int32 samples
+---
+#result definition 平均值 标准差
+float32 mean
+float32 std_dev
+---
+#feedback          当前样本个数 当前数据 当前平均值 当前标准差
+int32 sample
+float32 data
+float32 mean
+float32 std_dev
